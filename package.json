@@ -1,0 +1,17 @@
+{
+  "uid": "github.com/pinf-to/pinf-to-pio",
+  "name": "pinf-to-pio",
+  "version": "0.1.0",
+  "main": "plugin.js",
+  "dependencies": {
+    "bash.origin": "0.1.x",
+    "pio": "^0.6",
+    "portfinder": "^0.4.0",
+    "to.pinf.lib": "0.1.x"
+  },
+  "config": {
+    "pio.deploy.converter": {
+      "name": "nodejs-lib"
+    }
+  }
+}
